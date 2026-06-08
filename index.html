@@ -61,10 +61,8 @@
 
   <!-- Visualizador -->
   <div id="viewer-screen" class="hidden">
-    <!-- Canvas WebGL para el visor esférico -->
     <canvas id="panorama-canvas"></canvas>
 
-    <!-- HUD superior -->
     <div id="top-hud" class="hud">
       <button id="btn-back" class="hud-btn" title="Volver">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -81,7 +79,6 @@
       </button>
     </div>
 
-    <!-- HUD inferior -->
     <div id="bottom-hud" class="hud">
       <button id="btn-gyro" class="hud-btn-lg active" title="Giroscopio">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -121,13 +118,11 @@
       </button>
     </div>
 
-    <!-- Brújula -->
     <div id="compass">
       <div id="compass-needle"></div>
       <div class="compass-label">N</div>
     </div>
 
-    <!-- Panel de info -->
     <div id="info-panel" class="hidden">
       <div class="info-content">
         <h3>Información</h3>
@@ -136,13 +131,11 @@
       </div>
     </div>
 
-    <!-- Indicador giroscopio -->
     <div id="gyro-indicator" class="hidden">
       <span>Mueve tu celular para explorar</span>
     </div>
   </div>
 
-  <!-- Loading -->
   <div id="loading-overlay" class="hidden">
     <div class="loader-ring"></div>
     <p id="loading-text">Cargando imagen...</p>
